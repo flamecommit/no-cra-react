@@ -1,14 +1,18 @@
 {
-  "name": "no-cra-react",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "@shinyongjun/react-components",
+  "version": "0.0.1",
+  "description": "react component npm package boilerplate",
+  "main": "dist/index.js",
+  "keywords": [
+    "react",
+    "fullpage",
+    "scroll"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "webpack serve --mode=development",
-    "build": "webpack --mode=production"
+    "serve": "webpack serve --mode=development --config=webpack.dev.js",
+    "build": "rm -rf dist && webpack --mode=production --config=webpack.prod.js"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
