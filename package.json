@@ -9,7 +9,8 @@
     "test"
   ],
   "scripts": {
-    "build": "yarn workspace @shinyongjun/react-components build"
+    "build": "yarn workspace @shinyongjun/react-components build",
+    "dev": "yarn workspace test dev"
   },
   "keywords": [],
   "author": "",
